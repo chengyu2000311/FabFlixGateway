@@ -1,11 +1,11 @@
-package edu.uci.ics.UCNETID.service.gateway;
+package edu.uci.ics.hcheng10.service.gateway;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import edu.uci.ics.UCNETID.service.gateway.configs.*;
-import edu.uci.ics.UCNETID.service.gateway.connectionpool.ConnectionPoolManager;
-import edu.uci.ics.UCNETID.service.gateway.logger.ServiceLogger;
-import edu.uci.ics.UCNETID.service.gateway.threadpool.ThreadPool;
+import edu.uci.ics.hcheng10.service.gateway.configs.*;
+import edu.uci.ics.hcheng10.service.gateway.connectionpool.ConnectionPoolManager;
+import edu.uci.ics.hcheng10.service.gateway.logger.ServiceLogger;
+import edu.uci.ics.hcheng10.service.gateway.threadpool.ThreadPool;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.jackson.JacksonFeature;
@@ -18,7 +18,7 @@ import java.net.URI;
 
 public class GatewayService {
 
-    public static final String RESOURCE_PATH = "edu.uci.ics.UCNETID.service.gateway.resources";
+    public static final String RESOURCE_PATH = "edu.uci.ics.hcheng10.service.gateway.resources";
 
     public static GatewayService service;
 

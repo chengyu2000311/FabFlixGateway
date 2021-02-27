@@ -1,4 +1,4 @@
-package edu.uci.ics.UCNETID.service.gateway.logger;
+package edu.uci.ics.hcheng10.service.gateway.logger;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

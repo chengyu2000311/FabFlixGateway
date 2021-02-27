@@ -1,6 +1,6 @@
-package edu.uci.ics.UCNETID.service.gateway.configs;
+package edu.uci.ics.hcheng10.service.gateway.configs;
 
-import edu.uci.ics.UCNETID.service.gateway.logger.ServiceLogger;
+import edu.uci.ics.hcheng10.service.gateway.logger.ServiceLogger;
 
 public class IdmConfigs {
 

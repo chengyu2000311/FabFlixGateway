@@ -1,4 +1,4 @@
-package edu.uci.ics.UCNETID.service.gateway.transaction;
+package edu.uci.ics.hcheng10.service.gateway.transaction;
 
 import org.apache.commons.codec.binary.Hex;
 
@@ -11,7 +11,6 @@ public class TransactionGenerator {
         SecureRandom rngesus = new SecureRandom();
         byte[] id = new byte[ID_SIZE];
         rngesus.nextBytes(id);
-        String idString = Hex.encodeHexString(id);
-        return idString;
+        return Hex.encodeHexString(id);
     }
 }
